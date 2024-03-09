@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    font-size: 23px;
+    text-shadow: 0 0 5px #000;
+}
+
+.logo{
+    color: #fff;
+}
+
+.logo span{
+    color: #333;
+    text-shadow: 0 0 5px #fff;
+}
+
+.barra {
+    float: right;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.barra a:hover{
+    color: #333;
+}
+
+main{
+    background-image: url(../img/keithvuitton_LouisVuitton.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    height: 100vh;
+    width: 100%;
+}
+
+.main2{
+    background-image: url(../img/brickwall\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3{
+    background-image: url(../img/brickwall\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    color: #fff;
+    width: 47%;
+    border: 5px solid orange;
+    float: left;
+    margin: 30px;
+    margin-left: 130px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.call2{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    border: 5px solid orange;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1{
+    color: orange;
+    text-shadow: 2px 2px 0 #000;    ;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: orange;
+    text-shadow: 2px 2px 0 #000;    ;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: orange;
+    text-shadow: 2px 2px 0 #000;    ;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.call p{
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.call2 a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.call2 a:hover{
+    background-color: #333;
+}
+
+.team{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: grey;
+}
+
+.card{
+    width: 30%;
+    height: 500px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border: 5px solid orange;
+}
+
+.card-img1{
+    height: 200px;
+    background-image: url(../img/guitarra\ electrica.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img2{
+    height: 200px;
+    background-image: url(../img/amplificador\ marshall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img3{
+    height: 200px;
+    background-image: url(../img/pedalera\ multiefectos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img4{
+    height: 200px;
+    background-image: url(../img/reverb.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img5{
+    height: 200px;
+    background-image: url(../img/thegearpage.png);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title{
+    color: orange;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+.card-desc{
+    padding: 10px;
+}
+
+.imagenA {
+    height: 300px; 
+    width:300px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.lista1{
+    margin: auto;
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+footer p{
+    margin-bottom: 20px;
+}
+
+.redes a{
+    color: orange;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px #fff;
+}
