@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-header{
+.navbar{
     background-color: orange;
     display: flex;
     justify-content: space-between;
@@ -22,31 +22,27 @@ header{
     text-shadow: 0 0 5px #000;
 }
 
-.logo{
-    color: #fff;
-}
-
-.logo span{
-    color: #333;
-    text-shadow: 0 0 5px #fff;
-}
-
-.barra {
-    float: right;
-}
-
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-.barra a{
+.nav-link{
     text-decoration: none;
     color: #fff;
     margin-right: 10px;
 }
 
-.barra a:hover{
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.logo{
+    font-size: xx-large;
+    color: #fff;
+    text-shadow: #333;
+}
+
+.logo span{
     color: #333;
+    text-shadow: 0 0 5px #fff;
 }
 
 main{
